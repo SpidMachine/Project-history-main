@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e9bc082-44cf-4e1b-8881-44a0d0fe0ed6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1oO7N2TxRe3M3GwFFYSbtFWsbo5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e9bc082-44cf-4e1b-8881-44a0d0fe0ed6" name="Default Changelist" comment="" />
+      <created>1613145739430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613145739430</updated>
+      <workItem from="1613145740529" duration="4505000" />
+      <workItem from="1613150678612" duration="4069000" />
+      <workItem from="1613218698956" duration="1905000" />
+      <workItem from="1613653391339" duration="613000" />
+      <workItem from="1613668276818" duration="14420000" />
+      <workItem from="1613716635656" duration="5884000" />
+      <workItem from="1613809799386" duration="1782000" />
+      <workItem from="1613912420469" duration="7279000" />
+      <workItem from="1614012817750" duration="8322000" />
+      <workItem from="1614087268039" duration="207000" />
+      <workItem from="1614107847376" duration="653000" />
+      <workItem from="1614450308200" duration="838000" />
+      <workItem from="1614500575955" duration="4247000" />
+      <workItem from="1614709047985" duration="3487000" />
+      <workItem from="1614844891719" duration="696000" />
+      <workItem from="1614956982939" duration="3801000" />
+      <workItem from="1614961542895" duration="2491000" />
+      <workItem from="1614964573991" duration="655000" />
+      <workItem from="1615011305621" duration="3339000" />
+      <workItem from="1615114761322" duration="4152000" />
+      <workItem from="1615196378529" duration="1860000" />
+      <workItem from="1615207118611" duration="712000" />
+      <workItem from="1615322549743" duration="211000" />
+      <workItem from="1615401501265" duration="7004000" />
+      <workItem from="1615483349097" duration="5104000" />
+      <workItem from="1615568346458" duration="13297000" />
+      <workItem from="1615641008538" duration="7193000" />
+      <workItem from="1615715887366" duration="20101000" />
+      <workItem from="1615831761648" duration="6608000" />
+      <workItem from="1615995143371" duration="1629000" />
+      <workItem from="1616315457158" duration="5010000" />
+      <workItem from="1616516147953" duration="6625000" />
+      <workItem from="1616615730711" duration="5636000" />
+      <workItem from="1616693028180" duration="4839000" />
+      <workItem from="1617005497532" duration="10848000" />
+      <workItem from="1617444349675" duration="4927000" />
+      <workItem from="1617535113075" duration="16994000" />
+      <workItem from="1617723861861" duration="3812000" />
+      <workItem from="1617774766189" duration="5538000" />
+      <workItem from="1617791895530" duration="1373000" />
+      <workItem from="1617859671798" duration="7698000" />
+      <workItem from="1617947171910" duration="28424000" />
+      <workItem from="1618550170839" duration="9084000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+<<<<<<< Updated upstream
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html.html</url>
+          <line>7151</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+=======
+>>>>>>> Stashed changes
+</project>
