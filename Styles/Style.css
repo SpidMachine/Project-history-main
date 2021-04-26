@@ -18,6 +18,12 @@ H1,H2,H3,H4,H5,H6 {
     /*font-family: Arial, sans-serif;*/
 }
 
+.col-sm-2 {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
 .mainBottom {
     margin-left: 10%;
     margin-right: 10%;
@@ -352,6 +358,10 @@ body {
     padding: 10px;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+h4 b {
+    font-size: 100%;
 }
 
 .container p {
