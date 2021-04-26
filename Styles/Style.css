@@ -18,10 +18,20 @@ H1,H2,H3,H4,H5,H6 {
     /*font-family: Arial, sans-serif;*/
 }
 
+.card img {
+    width:100%;
+    height: 290px;
+    padding: 1%;
+}
+
 .col-sm-2 {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 1%;
+}
+
+h3 strong {
+    font-size: 100%;
 }
 
 .mainBottom {
