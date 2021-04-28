@@ -80,7 +80,7 @@ h3 strong {
 .tab {
     overflow: hidden;
     background-color: #eaeaea;
-	margin-top: 1%;
+	/*margin-top: 1%;*/
     border-radius: 5px 5px 0 0 ;
 }
 
@@ -126,10 +126,15 @@ h3 strong {
     background: #c1c1c1;
 }
 
+.istor-spravka {
+    width: 22%;
+    margin-left: 6%;
+}
+
 .tab-footer {
     overflow: hidden;
     background-color: #fff;
-	margin-bottom: 1%;
+	margin-bottom: -3%;
     border-radius: 0 0 5px 5px;
 	padding-bottom:15px;
 }
@@ -564,7 +569,7 @@ h4 b {
     .mainMain {
         margin-left: 9%;
         margin-right: 9%;
-        padding-bottom: 5%;
+        /*padding-bottom: 5%;*/
     }
 }
 
@@ -572,7 +577,7 @@ h4 b {
     .mainMain {
         margin-left: 6%;
         margin-right: 6%;
-        padding-bottom: 5%;
+        /*padding-bottom: 5%;*/
     }
 
     .minimized {
@@ -588,7 +593,7 @@ h4 b {
     .mainMain {
         margin-left: 5%;
         margin-right: 5%;
-        padding-bottom: 5%;
+        /*padding-bottom: 5%;*/
     }
 
     .minimized {
@@ -600,7 +605,7 @@ h4 b {
     .mainMain {
         margin-left: 2%;
         margin-right: 2%;
-        padding-bottom: 5%;
+        /*padding-bottom: 5%;*/
     }
 }
 
