@@ -484,8 +484,16 @@ h4 b {
     display: flex;
 }
 
-.iframe-video {
-    margin: 2%;
+.iframe-video1 {
+    margin: 6% 0 0 4%;
+}
+
+.iframe-video2 {
+    margin: 11% 4% 0 0;
+}
+
+.OurSchoolOfPeace-style {
+    display: flex;
 }
 
 .dropbtn {
