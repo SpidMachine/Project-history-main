@@ -16,9 +16,6 @@ require_once "request.php";
 <body>
 <div style="display: flex; justify-content: space-between; background-color: #f1f1f1; height: 100%;">
     <div class="backGr-left">
-        <h1 class="ssshhhh">Технический редактор проектаТехнический редактор проектаТехнический редактор
-            проектаТехнический редактор проектаТехнический редактор проектаТехнический редактор проектаТехнический
-            редактор проектаТехнический редактор проекта</h1>
     </div>
     <div class="mainMain">
         <div class="tab" id="aside1">
@@ -49,8 +46,18 @@ require_once "request.php";
                 мира
             </button>
 
-            <button class="tablinks" name="PhotoGallery" onclick="openTab(event, 'PhotoGallery')">Фотогалерея
-            </button>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunctionThr();">Видеоматериалы</button>
+                <div class="dropdown-content" id="CheckVideoMaterial">
+                    <button class="tablinks" name="VideoMaterial" onclick="openTab(event, 'VideoClips')">
+                        Видеоклипы
+                    </button>
+                    <button class="tablinks" name="VideoMaterial" onclick="openTab(event, 'MetodicheskayaKopilka')">
+                        Методическая копилка
+                    </button>
+                </div>
+            </div>
+
 
             <div class="dropdown">
                 <button class="dropbtn" onclick="myFunctionSec();">Проверь себя</button>
@@ -237,6 +244,12 @@ require_once "request.php";
         </div>
 
         <!-------------------------------------------------------Card content-->
+        <span>
+            <div class="tabcontent" id="VideoMaterial">
+
+            </div>
+        </span>
+
         <span>
         <div class="tabcontent" id="st-26-Ijuna">
             <div class="openedCardDiv">
@@ -10863,9 +10876,6 @@ require_once "request.php";
         </div>
     </div>
     <div class="backGr-right">
-        <h1 class="ssshhhh">Технический редактор проектаТехнический редактор проектаТехнический редактор
-            проектаТехнический редактор проектаТехнический редактор проектаТехнический редактор проектаТехнический
-            редактор проектаТехнический редактор проекта</h1>
     </div>
 </div>
 
