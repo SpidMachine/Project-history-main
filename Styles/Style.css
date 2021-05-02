@@ -54,6 +54,15 @@ h3 strong {
     padding-left: 1%;
 }
 
+.dropdown-content div {
+    margin: 0 auto;
+}
+
+.dropdown-content a button {
+    position: relative;
+    width: 100%;
+}
+
 .nav-item {
     border-bottom: 4px double #6b6b6b;
     margin-left: 10px;
@@ -376,11 +385,12 @@ html, body {
 #magnify {
     display: none;
     position: fixed;
-    max-width: 800px;
+    max-width: 35%;
     border: 5px solid white;
     height: auto;
     z-index: 9999;
     width: 40%;
+    background-attachment: fixed;
 }
 
 #magnify img {
@@ -448,6 +458,14 @@ h4 b {
     display: table;
     width: 500px;
     margin: 2%;
+}
+
+.questGamesImage__Wrapper .image__wrapper {
+    width: 33%;
+}
+
+.questGamesImage__Wrapper {
+    display: flex;
 }
 
 #idMost-Bloxina img {

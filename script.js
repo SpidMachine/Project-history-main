@@ -67,7 +67,7 @@ $(function () {
         var i_path = $(this).attr('src');
         $('body').append('<div id="overlay"></div><div id="magnify"><img alt="" src="' + i_path + '"><div id="close-popup"><i></i></div></div>');
         $('#magnify').css({
-            'position': 'absolute',
+            'position': 'fixed',
             'top': '50%',
             'left': '50%',
             'margin-right': '-50%',
