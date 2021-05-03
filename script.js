@@ -94,7 +94,7 @@ function myFunctionSec() {
 }
 
 function myFunctionThr() {
-    document.getElementById("CheckVideoMaterial").classList.toggle("show");
+    document.getElementById("FeedBackDropDown").classList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it

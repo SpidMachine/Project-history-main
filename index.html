@@ -93,9 +93,17 @@ require_once "request.php";
                 </div>
             </div>
 
-            <button class="tablinks" name="AboutProject" onclick="openTab(event, 'AboutProject')"
-                    style="float: right;">Команда проекта
-            </button>
+            <div class="dropdown" style="float: right">
+                <button class="dropbtn" onclick="myFunctionThr();">Команда проекта</button>
+                <div class="dropdown-content" id="FeedBackDropDown">
+
+                    <button class="tablinks" name="AboutProject" onclick="openTab(event, 'AboutProject')"
+                            style="float: right;">Команда проекта
+                    </button>
+                    <button class="tablinks" name="FeedBack" onclick="openTab(event, 'FeedBack')">Обратная связь
+                    </button>
+                </div>
+            </div>
         </div>
 
         <!-- Tab content -->
@@ -226,6 +234,10 @@ require_once "request.php";
                 </div>
 
             </div>
+        </div>
+
+        <div class="tabcontent" id="FeedBack">
+            <h3 style="margin-top: 1%; opacity: 80%; background-color: #eaeaea; border: 2px solid #dbdbdb; padding: 0.5%">Обратная связь</h3>
         </div>
 
         <!-------------------------------------------------------Card content-->
