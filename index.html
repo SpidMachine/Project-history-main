@@ -12,7 +12,7 @@ require_once "request.php";
     <title>Места силы Витебска - информационный патриотический проект</title>
     <link href="Styles/Style.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="shortcut icon" href="ico.ico" />
+    <link href="ico.ico" rel="shortcut icon"/>
 </head>
 <body>
 <div style="display: flex; justify-content: space-between; background-color: #f1f1f1; height: 100%;">
@@ -47,18 +47,14 @@ require_once "request.php";
                 мира
             </button>
 
-            <div class="dropdown">
-                <button class="dropbtn" onclick="myFunctionThr();">Видеоматериалы</button>
-                <div class="dropdown-content" id="CheckVideoMaterial">
-                    <button class="tablinks" name="VideoClips" onclick="openTab(event, 'VideoClips')">
-                        Видеоклипы
-                    </button>
-                    <button class="tablinks" name="MetodicheskayaKopilka"
-                            onclick="openTab(event, 'MetodicheskayaKopilka')">
-                        Методическая копилка
-                    </button>
-                </div>
-            </div>
+            <button class="tablinks" name="VideoClips" onclick="openTab(event, 'VideoClips')">
+                Видеоклипы
+            </button>
+
+            <button class="tablinks" name="MetodicheskayaKopilka"
+                    onclick="openTab(event, 'MetodicheskayaKopilka')">
+                Методическая копилка
+            </button>
 
 
             <div class="dropdown">
@@ -115,40 +111,15 @@ require_once "request.php";
                         </div>
                         <div class="col-sm-9 col-12 about-progect">
 
-                            <h1>Места силы… Витебск</h1>
-                            <p>У каждого человека есть свое «место силы». Для кого-то это родной дом, где родились
-                                его
-                                предки. Для других - деревушка, где вырос, или улица, ставшая родной. А может быть,
-                                это
-                                работа, которую любишь ,
-                                или город, в котором живешь?</p>
-                            <p>После Великой Отечественной войны появились особые «места силы». Именно там можно
-                                почтить
-                                память наших героических предков, испытать гордость за свою Родину, да и просто
-                                постоять в
-                                молчании. Речь идёт о значимых местах, связанных с событиями Великой Отечественной
-                                войны. В
-                                каждом городе Беларуси есть улицы, памятники, мемориальные знаки и таблички,
-                                братские
-                                могилы, которые можно назвать «местами силы».</p>
-                            <p>В Витебске таких мест около сотни . До недавнего времени отыскать их было непросто,
-                                но после
-                                реализации совместного проекта витебской «Школы мира» («ГУО «Средняя школа №28 г.
-                                Витебска»)
-                                и учреждения редакции «Витебская областная газета «Витебские вести» на просторах
-                                Интернета
-                                появился сайт «Места силы… Витебск», где систематизирован и обобщён весь известный
-                                нам
-                                материал.</p>
-                            <p>Теперь каждый небезразличный к истории родного края может с легкостью найти в
-                                Витебске «места
-                                силы» мужественного белорусского и советского народа. Сайт продолжает развиваться.
-                                Вскоре он
-                                будет дополнен разделами «Проверь себя» (тесты и задания по знанию памятных мест
-                                областного
-                                центра), «Квест-игры» (разработки квест-игры по памятным местам Витебска),
-                                «Фотогалерея»,
-                                «Публикации», а возможно, и чем-то еще полезным.</p>
+                            <h1>Места силы. Витебск</h1>
+                            <p>У каждого человека есть своё «место силы». Для кого-то это отчий дом, где родились его предки. Для других - деревушка, где вырос, или улица, ставшая родной. А может быть, это работа, которую любишь , или город, в котором живешь?</p>
+
+                            <p>Но для многих людей таким местом будет то, где можно почтить память наших мужественных предков, испытав гордость за нашу Родину, да и просто постоять в молчании. В каждом городе Беларуси есть улицы, памятники, мемориальные таблички, братские могилы, ставшие именитыми. В каждом городе Беларуси чтут память о доблестных героях и событиях Великой Отечественной войны.</p>
+
+                            <p>В Витебске таких мест около сотни. До недавнего времени отыскать их было непросто, но после реализации совместного проекта витебской «Школы мира» («ГУО «Средняя школа №28 г. Витебска») и учреждения редакции «Витебская областная газета «Витебские вести» на просторах Интернета появился сайт «Места силы… Витебск», где систематизирован и обобщён весь известный нам материал.</p>
+
+                            <p>Теперь каждый небезразличный к истории родного края человек может с легкостью найти информацию о героических местах Витебска, связанных с событиями Великой Отечественной войны. Сайт продолжает развиваться. Вскоре он будет дополнен разделами «Проверь себя» (тесты и задания по знанию памятных мест областного центра), «Квест-игры» (разработки квест-игры по памятным местам Витебска), «Фотогалерея», «Публикации», а возможно, и чем-то еще полезным.</p>
+
                             <h3>Никто не забыт, ничто не забыто!</h3>
                         </div>
 
@@ -291,8 +262,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/26-iyunya-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width:11%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -349,12 +319,11 @@ require_once "request.php";
                             переулок Стахановский<br>
                             <strong>Заканчивается:</strong>
                             2-й переулок Октябрьский<br>
-                            <strong>Открыть карту:</strong>
+                            <strong>Найти на карте:</strong>
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/39-y-armii-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 11%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -414,6 +383,12 @@ require_once "request.php";
                             улица Генерала Ивановского<br>
                             <strong>Заканчивается:</strong>
                             улица Марка Фрадкина<br>
+                            <strong>Найти на карте:</strong>
+                            <a class="aContent"
+                               href="https://maps.tut.by/vitebsk/33-armii-ul/">
+                                <img alt=""
+                                     src="material/Map.png">
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -501,8 +476,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/43-y-armii-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -587,8 +561,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/bagramyana-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 11%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -699,8 +672,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/?suggest=0&select_city=8746&street=%D0%BC%D0%BE%D1%81%D1%82+%D0%B1%D0%BB%D0%BE%D1%85%D0%B8%D0%BD%D0%B0&text=">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -811,8 +783,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/?suggest=0&select_city=8746&street=%D0%BC%D0%BE%D1%81%D1%82+%D0%B1%D0%BB%D0%BE%D1%85%D0%B8%D0%BD%D0%B0&text=">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -916,8 +887,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/bumagina-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1014,8 +984,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/vatutina-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1106,8 +1075,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/vinogradovoy-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1175,8 +1143,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/very-khoruzhey-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1266,8 +1233,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/gastello-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1415,8 +1381,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/generala-lyudnikova-prosp/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1533,8 +1498,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/generala-lyudnikova-prosp/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1627,8 +1591,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/zenkovoy-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1756,8 +1719,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/gorovca-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1850,8 +1812,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/generala-ivanovskogo-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -1982,8 +1943,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/gromova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2051,8 +2011,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/donukalova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2139,8 +2098,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/donukalova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2214,8 +2172,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/zhestkova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2297,8 +2254,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/zaslonova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2413,8 +2369,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/zenkovoy-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2514,8 +2469,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/knyazeva-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2600,8 +2554,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/kondrateva-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2682,8 +2635,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/kondrateva-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2782,8 +2734,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/krasnogo-partizana-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2901,8 +2852,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/leonova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -2979,8 +2929,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/maskaeva-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3068,8 +3017,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/myasoedova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3167,8 +3115,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/?suggest=0&select_city=8746&street=%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C+%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B&text=">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3288,8 +3235,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/pobedy-prosp/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3352,8 +3298,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/portnovoy-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3446,8 +3391,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/svechkinykh-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3559,8 +3503,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/smetanina-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3665,8 +3608,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/svidinskogo-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3753,8 +3695,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/sofi-pankovoy-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3847,8 +3788,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/sivakova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -3936,8 +3876,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/stepanenko-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -4007,8 +3946,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/1-ulica-silnickogo/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -4100,8 +4038,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/supruna-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -4172,8 +4109,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/very-khoruzhey-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -4267,8 +4203,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/chernyakhovskogo-prosp/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -4368,8 +4303,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/shmyreva-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -4473,8 +4407,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/shradera-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -4543,8 +4476,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/vitebsk/yanushkovskogo-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -4657,8 +4589,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/minsk/nikiforova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -4736,8 +4667,7 @@ require_once "request.php";
                             <a class="aContent"
                                href="https://maps.tut.by/minsk/nikiforova-ul/">
                                 <img alt=""
-                                     src="http://deti.vlib.by/images/stories/v-nazvaniyah-pamyat-zhivet/map-tutby.jpg"
-                                     style="width: 9%">
+                                     src="material/Map.png">
                             </a>
                         </p>
                     </div>
@@ -6992,12 +6922,6 @@ require_once "request.php";
                     <p><strong>Местоположение:</strong><br>
                         Расположена по адресу: г. Витебск, ул. 7-я Куйбышева, 12 (у частного дома).<br>
                     </p>
-                 <div class="image__wrapper">
-                    <img alt="" class="minimized"
-                         src="Styles/photosMemorial/50%20Явочная%20квартира%20подпольщиков%20(Куйбашева)1.jpg"
-                         style="width: 50%;
-    margin-left: 10%;">
-                 </div>
                         <p>
                             <span style="margin-left: 3%">Установлена</span> в 1959 г.<br>
 
@@ -9672,39 +9596,30 @@ require_once "request.php";
         <div class="tabcontent" id="QuestGames">
             <h3 style="margin-top: 1%; opacity: 80%; background-color: #eaeaea; border: 2px solid #dbdbdb; padding: 0.5%">
                 Квест-игры</h3>
-            <h4>Викторина «Памятные места Витебска, связанные с военными событиями».</h4>
-            <div>
-                <div>
-                    <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/Vektorina%20Pamyatnie%20mesta%20Vitebska.png"
-                             style="width: 50%;
-    margin-left: 10%;">
-                    </div>
-                </div>
-                <div>
-                <p><a class="btn btn-primary" href="sectionCheckYourself/ВикторинаПо%20местам%20ВОВ%20в%20Витебске.docx"
-                      role="button">Скачать с сайта</a></p>
-                </div>
-            </div>
 
             <h4>Квест-игра. По следам Веры Хоружей</h4>
             <div>
                 <div class="questGamesImage__Wrapper">
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/VeraXoruzh/PoMestamVeriyXoruzhey1.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/VeraXoruzh/PoMestamVeriyXoruzhey1.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/VeraXoruzh/PoMestamVeriyXoruzhey2.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/VeraXoruzh/PoMestamVeriyXoruzhey2.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/VeraXoruzh/PoMestamVeriyXoruzhey3.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/VeraXoruzh/PoMestamVeriyXoruzhey3.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/VeraXoruzh/PoMestamVeriyXoruzhey4.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/VeraXoruzh/PoMestamVeriyXoruzhey4.png">
                     </div>
                 </div>
                 <div>
-                    <p><a class="btn btn-primary" href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Веры%20Хоружей"
+                    <p><a class="btn btn-primary"
+                          href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Веры%20Хоружей"
                           role="button">Скачать с сайта</a></p>
                 </div>
             </div>
@@ -9713,20 +9628,25 @@ require_once "request.php";
             <div>
                 <div class="questGamesImage__Wrapper">
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant1/1PoSledamBerezkinoy1.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/variant1/1PoSledamBerezkinoy1.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant1/1PoSledamBerezkinoy2.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/variant1/1PoSledamBerezkinoy2.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant1/1PoSledamBerezkinoy3.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/variant1/1PoSledamBerezkinoy3.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant1/1PoSledamBerezkinoy4.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/variant1/1PoSledamBerezkinoy4.png">
                     </div>
                 </div>
                 <div>
-                    <p><a class="btn btn-primary" href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Лидии%20Березкиной/КвестБерезкинаВариант1.docx"
+                    <p><a class="btn btn-primary"
+                          href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Лидии%20Березкиной/КвестБерезкинаВариант1.docx"
                           role="button">Скачать с сайта</a></p>
                 </div>
             </div>
@@ -9735,23 +9655,29 @@ require_once "request.php";
             <div>
                 <div class="questGamesImage__Wrapper">
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy1.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy1.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy2.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy2.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy3.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy3.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy4.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy4.png">
                     </div>
                     <div class="image__wrapper">
-                        <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy5.png">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/variant2/2PoSledamBerezkinoy5.png">
                     </div>
                 </div>
                 <div>
-                    <p><a class="btn btn-primary" href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Лидии%20Березкиной/КвестБерезкинаВариант2.docx"
+                    <p><a class="btn btn-primary"
+                          href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Лидии%20Березкиной/КвестБерезкинаВариант2.docx"
                           role="button">Скачать с сайта</a></p>
                 </div>
 
@@ -9759,20 +9685,25 @@ require_once "request.php";
                 <div>
                     <div class="questGamesImage__Wrapper">
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant3/3PoSledamBerezkinoy1.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant3/3PoSledamBerezkinoy1.png">
                         </div>
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant3/3PoSledamBerezkinoy2.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant3/3PoSledamBerezkinoy2.png">
                         </div>
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant3/3PoSledamBerezkinoy3.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant3/3PoSledamBerezkinoy3.png">
                         </div>
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant3/3PoSledamBerezkinoy4.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant3/3PoSledamBerezkinoy4.png">
                         </div>
                     </div>
                     <div>
-                        <p><a class="btn btn-primary" href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Лидии%20Березкиной/КвестБерезкинаВариант3.docx"
+                        <p><a class="btn btn-primary"
+                              href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Лидии%20Березкиной/КвестБерезкинаВариант3.docx"
                               role="button">Скачать с сайта</a></p>
                     </div>
                 </div>
@@ -9781,26 +9712,33 @@ require_once "request.php";
                 <div>
                     <div class="questGamesImage__Wrapper">
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy1.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy1.png">
                         </div>
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy2.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy2.png">
                         </div>
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy3.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy3.png">
                         </div>
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy4.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy4.png">
                         </div>
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy5.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy5.png">
                         </div>
                         <div class="image__wrapper">
-                            <img alt="" class="minimized" src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy6.png">
+                            <img alt="" class="minimized"
+                                 src="sectionCheckYourself/Screenshots/variant4/4PoSledamBerezkinoy6.png">
                         </div>
                     </div>
                     <div>
-                        <p><a class="btn btn-primary" href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Лидии%20Березкиной/КвестБерезкинаВариант4.docx"
+                        <p><a class="btn btn-primary"
+                              href="sectionCheckYourself/РазделКвест-игры/Квест-игра.%20По%20следам%20Лидии%20Березкиной/КвестБерезкинаВариант4.docx"
                               role="button">Скачать с сайта</a></p>
                     </div>
                 </div>
@@ -9863,6 +9801,25 @@ require_once "request.php";
         <div class="tabcontent" id="MetodicheskayaKopilka">
             <h3 style="margin-top: 1%; opacity: 80%; background-color: #eaeaea; border: 2px solid #dbdbdb; padding: 0.5%">
                 Видеоматериалы</h3>
+            <h4>Викторина «Памятные места Витебска, связанные с военными событиями».</h4>
+            <div>
+                <div>
+                    <div class="image__wrapper">
+                        <img alt="" class="minimized"
+                             src="sectionCheckYourself/Screenshots/Vektorina%20Pamyatnie%20mesta%20Vitebska.png"
+                             style="width: 50%;
+    margin-left: 10%;">
+                    </div>
+                </div>
+                <div>
+                    <p><a class="btn btn-primary"
+                          href="sectionCheckYourself/ВикторинаПо%20местам%20ВОВ%20в%20Витебске.docx"
+                          role="button">Скачать с сайта</a></p>
+                </div>
+            </div>
+
+            <h3>Витебск военных лет: кинохроника</h3>
+
             <div style="display: flex; justify-content: space-around">
                 <div>
                     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -9887,20 +9844,14 @@ require_once "request.php";
                 <div>
                     <h3 style="margin-top: 1%; opacity: 80%; background-color: #eaeaea; border: 2px solid #dbdbdb; padding: 0.5%">
                         Места силы. Витебск - улицы</h3>
-                    <p><span style="margin-left: 3%">Великая</span> Отечественная война прокатилась через Витебск
-                        сначала с
-                        запада
-                        на восток, потом с востока на запад. А Улица Князева
-                        в промежутке – четыре года оккупации. Город сражался. Память о героях войны живёт в
-                        названиях улиц и
-                        городских объектов, названных в их честь. Среди них – герои Великой Отечественной: генералы
-                        и
-                        рядовые,
-                        летчики и пехотинцы, юноши и девушки… <br>
-                        <span style="margin-left: 3%">В</span> данном разделе вы найдете перечень наименований улиц,
-                        переулков и
-                        площадей с указанием их расположения, а
-                        также исторические сведения о происхождении их названий.</p>
+                    <p><span style="margin-left: 3%">Великая</span> Отечественная война прокатилась через Витебск сначала с запада
+                        на восток, потом с востока на запад. Город сражался. Память о героях войны живёт в
+                        названиях улиц и городских объектов, названных в их честь. Среди них – герои Великой
+                        Отечественной: генералы и рядовые, летчики и пехотинцы, юноши и девушки… <br>
+                        <span style="margin-left: 3%">Изучив</span> данный раздел,
+                        вы не только узнаете об улицах, переулках и площадях, чьи названия связаны с событиями войны,
+                        но и сможете ознакомится с историческими справками о происхождении этих названий. <br>
+                    </p>
                 </div>
             </div>
             <div style="animation: tab-click 400ms forwards;">
