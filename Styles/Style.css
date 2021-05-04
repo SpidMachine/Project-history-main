@@ -586,6 +586,20 @@ h4 b {
     margin-top: 1%;
 }
 
+.formFeedBack {
+    margin: 0 0 2% 7%;
+}
+
+.iconStyle {
+    width: 30px;
+    margin: 5px
+}
+
+#iconStyleVK {
+    width: 36px;
+    margin: 5px
+}
+
 /*#comeBack {*/
 /*    padding: 1%;*/
 /*    box-shadow: 0 0 27px rgb(0 0 0 / 20%);*/
@@ -606,6 +620,14 @@ h4 b {
         margin-right: 9%;
         /*padding-bottom: 5%;*/
     }
+
+    .backGr-left {
+        width: 9%;
+    }
+
+    .backGr-right {
+        margin-left: 91%;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -622,6 +644,14 @@ h4 b {
     .divSpravka {
         margin-left: 1.5%;
     }
+
+    .backGr-left {
+        width: 6%;
+    }
+
+    .backGr-right {
+        margin-left: 94%;
+    }
 }
 
 @media (max-width: 1366px) {
@@ -634,13 +664,45 @@ h4 b {
     .minimized {
         width: 105%;
     }
+
+    .backGr-left {
+        width: 5%;
+    }
+
+    .backGr-right {
+        margin-left: 95%;
+    }
 }
 
-@media (max-width: 1125px) {
+@media (max-width: 1250px) {
     .mainMain {
         margin-left: 2%;
         margin-right: 2%;
         /*padding-bottom: 5%;*/
+    }
+
+    .backGr-left {
+        width: 2%;
+    }
+
+    .backGr-right {
+        margin-left: 98%;
+    }
+}
+
+@media (max-width: 1165px) {
+    .mainMain {
+        margin-left: 0;
+        margin-right: 0;
+        /*padding-bottom: 5%;*/
+    }
+
+    .backGr-left {
+        width: 0;
+    }
+
+    .backGr-right {
+        margin-left: 100%;
     }
 }
 
